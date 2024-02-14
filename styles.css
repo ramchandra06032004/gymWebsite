@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Mitr", sans-serif;
+}
+
+.section1 {
+  background-image: url("./Assets/sport-2792995_1280.jpg");
+  height: 110vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.logo {
+  color: #48fd4a;
+  font-size: 2rem;
+  gap: 1rem;
+  padding-left: 2rem;
+}
+.navOption ul {
+  display: flex;
+  gap: 1rem;
+}
+.navOption ul li {
+  color: #9c9ea2;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  font-size: 1.3rem;
+}
+.navbar ul li:hover {
+  border-bottom: 3px solid #48fd4a;
+  cursor: pointer;
+  color: white;
+}
+.joinBtn button {
+  background-color: transparent;
+  color: #48fd4a;
+  height: 3.5rem;
+  width: 10rem;
+  border: 1.5px solid #48fd4a;
+  font-size: 1.5rem;
+}
+.joinBtn button:hover {
+  background-color: #48fd4a;
+  color: black;
+  cursor: pointer;
+}
+.slowgan {
+  color: white;
+  font-size: 6rem;
+  font-weight: 1000;
+  padding-left: 10vw;
+}
+.homeInfo {
+  color: white;
+  padding-left: 10vw;
+}
+.letsTrain {
+  padding-left: 10vw;
+}
+.home {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  color: #48fd4a;
+  font-size: 2rem;
+}
+
+.section2 {
+  background-color: black;
+  height: 40vh;
+  color: white;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.keyPoint {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 25vh;
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  background-color: #1a1a1a;
+}
+.header {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.video {
+  margin-left: 2rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.section3 {
+  background-color: black;
+  height: 100vh;
+  gap: 5rem;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.greenBox {
+  background-color: #48fd4a;
+  height: 50vh;
+  width: 20vw;
+  position: absolute;
+  z-index: 0;
+  top: 175.5%;
+  left: 70%;
+}
+.image img {
+  position: absolute;
+  z-index: 1;
+
+  top: 178%;
+  left: 69%;
+  height: 60vh;
+  width: 20vw;
+}
+.who {
+  font-size: 1.3rem;
+  color: #48fd4a;
+}
+.sec3info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.sec3Heading {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+.sec3ThisALso {
+  font-size: 1.3rem;
+}
+.sec3KeyPoints {
+  display: flex;
+  gap: 1rem;
+}
+.icon {
+  height: 10vh;
+  width: 10vh;
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.icon i {
+  font-size: 2rem;
+}
+.section4 {
+  background-color: black;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+.sec4ImageInfo {
+  width: 30vw;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.sec4image {
+  width: 30vw;
+}
+.sec4GreenBox {
+  background-color: #48fd4a;
+  height: 50vh;
+  width: 15vw;
+  position: absolute;
+  right: 69.5%;
+  top: 268.2%;
+}
+.sec4image img {
+  right: 65%;
+  top: 271%;
+  position: absolute;
+  height: 60vh;
+}
+.sec4MiniHeading {
+  color: #48fd4a;
+  font-size: 1.3rem;
+}
+.sec4MainHeading {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.sec4Info {
+  color: white;
+  font-size: 1.3rem;
+}
+.section5 {
+  background-color: black;
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  flex-wrap: wrap;
+}
+.sec5Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec5Number {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #48fd4a;
+}
+.sec5Name {
+  font-size: 1.3rem;
+}
+.section6 {
+  background-color: black;
+  gap: 3rem;
+  padding: 5rem 0 5rem 0;
+  height: auto;
+}
+.sec6ImageContainer {
+  display: flex;
+  width: 98vw;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+}
+.sec6ImageCard {
+  width: 25vw;
+  height: auto;
+}
+.sec6ImageCard img {
+  width: 90%;
+
+  border-radius: 1rem;
+  filter: grayscale(100%);
+}
+.sec6ImageCard img:hover {
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+.sec6MinHeader {
+  color: #48fd4a;
+  font-size: 1.4rem;
+  margin-left: 8vw;
+}
+.sec6Heading {
+  color: white;
+  margin-left: 8vw;
+  font-size: 4.5rem;
+  font-weight: bolder;
+}
+.learn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.number {
+  color: white;
+  font-size: 3rem;
+}
+.sec6Name {
+  color: white;
+  font-size: 1.3rem;
+}
+.section7 {
+  background-color: black;
+  height: auto;
+  padding: 4rem 0 4rem 0;
+}
+.sec7MinHeading {
+  color: #48fd4a;
+  font-size: 1.3rem;
+  margin-left: 8vw;
+  text-align: center;
+}
+.sec7MainHeading {
+  color: white;
+  font-size: 4.5rem;
+  text-align: center;
+  font-weight: bolder;
+}
+.trainerContainer {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5vw;
+  flex-wrap: wrap;
+}
+.trainerCard {
+  width: 20vw;
+}
+.trainerCard img {
+  width: 100%;
+  height: 30vh;
+  filter: grayscale(100%);
+}
+.trainerCard img:hover {
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.trainerName {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+}
+.trainerInfo {
+  color: white;
+  text-align: center;
+}
+.sec7icon {
+  color: white;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 1175px) {
+  .sec7MainHeading {
+    font-size: 3rem;
+  }
+  .trainerContainer {
+    height: auto;
+    gap: 3rem;
+    display: flex;
+  }
+  .trainerCard {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .section6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .sec6ImageCard {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sec6Heading {
+    font-size: 2rem;
+  }
+  .section5 {
+    height: auto;
+  }
+  .sec5Container {
+    width: 75vw;
+    margin: 1rem 0 1rem 0;
+  }
+  .sec4image img {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+  }
+  .sec4image {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec4ImageInfo {
+    width: 80vw;
+  }
+  .sec4GreenBox {
+    display: none;
+  }
+  .section4 {
+    height: auto;
+  }
+  .section1 {
+    height: 80vh;
+    padding: 0 1rem 0 1rem;
+    width: auto;
+  }
+  .navOption ul li {
+    display: none;
+  }
+  .slowgan {
+    font-size: 2rem;
+  }
+  .section2 {
+    height: auto;
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+  .section2 div {
+    padding: 1.5rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .joinBtn {
+    width: 40vw;
+    font-size: 1rem;
+  }
+  .sec3Image img {
+    position: static;
+    width: 80vw;
+    border-radius: 1rem;
+    height: 50vh;
+  }
+  .greenBox {
+    display: none;
+  }
+  .keyPoint {
+    gap: 1px;
+    width: 70vw;
+  }
+  .video {
+    width: 75vw;
+    height: 30vh;
+  }
+  .section3 {
+    height: auto;
+    padding: 5rem 1rem 3rem 1rem;
+  }
+  .sec3Heading {
+    font-size: 2.5rem;
+  }
+  .button button {
+    width: 80vw;
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 2px solid #48fd4a;
+    color: #48fd4a;
+  }
+  .button button:hover {
+    background-color: #48fd4a;
+    color: black;
+  }
+}
