@@ -350,7 +350,218 @@
   gap: 1rem;
   cursor: pointer;
 }
+.section7 {
+  height: auto;
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sec7MiniHeading {
+  text-align: center;
+  color: #48fd4a;
+  font-size: 1.5rem;
+}
+.sec7Heading {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.sec7Info {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  width: 60%;
+  margin-bottom: 2rem;
+}
+.sec7OfferContainer {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+.offerCard {
+  border: 1px solid white;
+  height: auto;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.Price {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  margin-top: 2rem;
+}
+.time {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.features {
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+.joinBtn2 button {
+  width: 90%;
+  margin: 2rem 0 1rem 0;
+  height: 5vh;
+  background-color: transparent;
+  border: 2px solid #48fd4a;
+  color: #48fd4a;
+}
+.duration {
+  color: #48fd4a;
+  font-size: 1.5rem;
+}
+.section8 {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sec8Green {
+  height: 45vh;
+  width: 15vw;
+  background-color: #48fd4a;
+  position: absolute;
+  top: 735%;
+  left: 15%;
+}
+.sec8Image img {
+  height: 60vh;
+  width: 50vh;
+  position: absolute;
+  top: 737.5%;
+  left: 16.5%;
+}
+.sec8Image {
+  width: 30vw;
+}
+.sec8Info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 36vw;
+  gap: 1.5rem;
+}
+.sec8MiniHeading {
+  color: #48fd4a;
+  font-size: 1.5rem;
+}
+.sec8Heading {
+  color: white;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.sec8Info {
+  text-align: center;
+  color: #9c9ea2;
+  font-size: 1.2rem;
+}
+.section9 {
+  height: auto;
+  padding: 2rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: black;
+}
+.sec9MiniHeading {
+  color: #48fd4a;
+  font-size: 1.5rem;
+  margin-left: 8vw;
+  text-align: center;
+}
+.sec9Heading {
+  color: white;
+  font-size: 4.5rem;
+  text-align: center;
+  font-weight: bolder;
+}
+.sec9Images {
+  width: 80vw;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1rem;
+}
+.sec9Images img {
+  width: 45%;
+  height: 50vh;
+  cursor: pointer;
+}
 @media screen and (max-width: 1175px) {
+  .sec8Heading {
+    font-size: 2.5rem;
+  }
+  .sec8Info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section8 {
+    height: auto;
+    width: 100%;
+  }
+  .sec8Info {
+    width: 80%;
+  }
+  .sec8Image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec8Image img {
+    margin: 2rem 0 2rem 0;
+    position: static;
+  }
+  .sec8Green {
+    display: none;
+  }
+  .Price {
+    font-size: 2.5rem;
+  }
+  .sec7Heading {
+    font-size: 3rem;
+  }
+  .sec7Info {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+  .joinBtn2 button {
+    margin-bottom: 5%;
+  }
+  .sec7OfferContainer {
+    height: auto;
+  }
+  .section7 {
+    height: auto;
+  }
+  .offerCard {
+    width: 60vw;
+  }
+  .sec6ImageCard img {
+    filter: grayscale(0%);
+  }
+  .trainerCard img {
+    filter: grayscale(0%);
+  }
   .sec7MainHeading {
     font-size: 3rem;
   }
