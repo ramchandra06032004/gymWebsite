@@ -579,14 +579,45 @@
 .menuContainer {
   display: none;
 }
+
+/* animation  */
+.hiddenLeft,
+.hiddenRight {
+  position: absolute;
+  opacity: 0;
+  transition: all 1s;
+}
+
+.hiddenLeft {
+  right: auto;
+  transform: translateX(100%); /* Start from the right */
+}
+
+.hiddenRight {
+  left: 0;
+  transform: translateX(-100%); /* Start from the left */
+}
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0%);
+}
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
 @media screen and (max-width: 1175px) {
   .menuContainer {
     display: block;
     position: absolute;
     top: 0px;
-    background-color: #48fd4a;
+    background-color: black;
     width: 100%;
     left: 0px;
+    z-index: 10;
+    height: 100%;
   }
   .close {
     padding: 0.5rem;
@@ -600,9 +631,11 @@
     align-items: center;
     padding: 1rem;
     list-style: none;
+    gap: 1rem;
   }
   .menuContainer ul li {
     font-size: 1.2rem;
+    color: #48fd4a;
   }
   .menu {
     display: block;
@@ -615,7 +648,7 @@
     width: 80%;
   }
   .sec10Heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .sec9Images img {
     width: 75vw;
@@ -767,10 +800,12 @@
   }
   .logo {
     font-size: 1.5rem;
+    margin-left: -2rem;
   }
   .joinBtn button {
     width: 20vw;
     font-size: 1rem;
+    height: 5vh;
   }
   .sec3Image img {
     position: static;
