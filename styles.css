@@ -610,7 +610,7 @@
 
 @media screen and (max-width: 1175px) {
   .menuContainer {
-    display: block;
+    display: none;
     position: absolute;
     top: 0px;
     background-color: black;
